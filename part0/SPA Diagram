@@ -1,0 +1,10 @@
+```mermaid
+sequenceDiagram
+Participant User
+Participant Server
+
+User->>
+Server-->>
+
+
+```
