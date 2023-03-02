@@ -12,5 +12,5 @@ Server-->>User: Returns the main.css file (Containing Styles)
 User->>Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
 Server-->>User: Returns the main.js file (Containing Logic)
 User->>Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
-Server-->>User: Returns the JSON file that contains all of the notes in a form of a JSON [{content: "note", date: "2023-03-02"}]
+Server-->>User: Returns the JSON and the browser has all that is needed to display the page. [{content: "note", date: "2023-03-02"}]
 ```
